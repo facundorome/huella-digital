@@ -1,0 +1,43 @@
+html {
+  height: 100%;
+  width: 100%;
+}
+body{
+  background-color: #074173;}
+
+.titulo{
+  display:flex;
+  justify-content: center;
+  align-items: center;
+background: rgb(22, 121, 171,0.3);
+  border: 3px solid rgb(197, 255, 149);
+}
+.titulo p{
+  font-size: 50px;
+  font-weight: bold;
+  color: rgb(93, 235, 215);
+}
+.subtitulo p{
+font-size: 30px;  
+  font-weight: bold;
+  color: #5DEBD7;
+}
+  .content1{
+    display:flex;
+    justify-content: center;
+    align-items: center;
+    background:rgb(22, 121, 171,0.3);
+    border: 4px solid rgb(197, 255, 149);
+  }
+
+.content1 img{
+  height: 250px;
+  margin: 20px;
+}
+.content1 p{
+  font-size: 20px;
+  font-weight: bold;
+  color:#5DEBD7;
+  margin: 20px;
+  line-height: 2.0;
+}
